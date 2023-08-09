@@ -16,3 +16,19 @@
 .list-style-four {
     list-style-type:lower-alpha ;
 }
+
+.box-one {
+    background-color: red;
+    border: 2px solid blue;
+    color: yellow;
+    padding: 5px 5px 10px 10px;
+}
+
+.box-two {
+    background-color: blue;
+    border: 2px solid red;
+    color: yellow;
+    padding-bottom: 10px;
+    padding-top:10px;
+
+}
