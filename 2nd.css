@@ -2,12 +2,13 @@ ul {
     display:flex;
     flex-direction:row ; /* column | row-reverse | column-reverse */
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    /*justify-content:space-evenly;*/
     border: 1px solid red;
     padding:0;
     list-style : none;
-    background-color: lightcoral;
-    align-items:flex-start;
+    background-color: #f08080;
+    /*flex-grow:20;*/
+    /*align-items:flex-start;*/
 }
 
 li {
@@ -16,6 +17,11 @@ li {
     background-color: lightblue;
     margin:8px;
     padding:4px;
+    flex-basis:auto;
+}
+
+.li :nth-child(1){
+    order:1;
 }
 
 /* .container {
