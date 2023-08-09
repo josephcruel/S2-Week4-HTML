@@ -2,7 +2,12 @@ ul {
     display:flex;
     flex-direction:row ; /* column | row-reverse | column-reverse */
     flex-wrap: wrap;
-    text-decoration: none;
+    justify-content:space-evenly;
+    border: 1px solid red;
+    padding:0;
+    list-style : none;
+    background-color: lightcoral;
+    align-items:flex-start;
 }
 
 li {
@@ -10,7 +15,7 @@ li {
     height:100px;
     background-color: lightblue;
     margin:8px;
-    
+    padding:4px;
 }
 
 /* .container {
